@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - 1box_equation</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="form">
+<h1>Verification Code</h1>
+<p>Please solve the following equation:</p>
+<p2 id="equation"></p2>
+<div class="container">
+  <input type="text" id="input1" class="box" placeholder="-" height="28" size="5">
+
+</div>
+<button class="btn-2" onclick="newEquation()">Refresh</button>
+<div class="btn-1">
+  <button onclick="checkAnswer()" ><span>Submit</span></button>
+</div>
+<p3 id="result"></p3>
+<p4 id="succeeded"></p4>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
